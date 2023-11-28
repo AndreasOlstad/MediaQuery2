@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  margin-left: 125px;
+}
+.tekst {
+  padding-left: 100px;
+}
+.h3-tekst {
+  margin-bottom: 0px;
+}
+.p-tekst {
+  max-width: 440px;
+  margin-top: 5px;
+}
+span {
+  writing-mode: vertical-lr;
+  padding-bottom: 180px;
+  font-weight: bolder;
+}
+img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+}
+.bildetekst {
+  margin-top: 0;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.boks {
+  margin-top: 60px;
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .tekst {
+    padding-left: 20px;
+  }
+  span {
+    writing-mode: horizontal-tb;
+    padding-bottom: 0;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .boks {
+    margin-top: 30px;
+  }
+}
+

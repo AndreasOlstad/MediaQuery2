@@ -34,6 +34,11 @@ img {
 .boks {
   margin-top: 60px;
 }
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
 @media only screen and (max-width: 500px) {
   .container {
     flex-direction: column;
